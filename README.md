@@ -1,3 +1,3 @@
 # Information-Systems
 TODO
-python part
+fix arduino loop
