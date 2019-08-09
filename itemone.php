@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-$conn = new mysqli("localhost", "root", "", "csuth2018");
+$conn = new mysqli("localhost", "root", "", "storedb");
 if ($conn->connect_errno) {
     echo "Database connection failed (" . $conn->connect_errno . ") " . $conn->connect_error;
 }

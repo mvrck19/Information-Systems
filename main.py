@@ -11,7 +11,7 @@ db = mysql.connector.connect(
     host="localhost",
     user="root",
     passwd="",
-    database="csuth2018"
+    database="storedb"
 )
 cursor = db.cursor()
 while True:
