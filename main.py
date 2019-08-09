@@ -4,7 +4,8 @@ import time
 
 board = Arduino('/dev/ttyUSB0')
 
-led_pin = 11
+green_led = 8
+blue_led = 7
 
 db = mysql.connector.connect(
     host="localhost",
@@ -16,10 +17,10 @@ cursor = db.cursor()
 while True:
     time.sleep(1)
 
-    cursor.execute("SELECT * FROM items WHERE avail<'10'")
+    cursor.execute("SELECT * FROM items WHERE avail<'5'")
     if cursor.fetchone() is not None:
-        board.digital[led_pin].write(1)
+        board.digital[blue_led].write(1)
     else:
-        board.digital[led_pin].write(0)
+        board.digital[green_led].write(1)
     cursor.reset()
 cursor.close()
