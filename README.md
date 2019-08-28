@@ -1,6 +1,7 @@
 # Information-Systems
 **Setup**
 > - Θα πρέπει να δημιουθργηθεί μια βάση MySQL με τα εξής στοιχεία :
+
 >   host="localhost"
 >   user="root"
 >   passwd=""
@@ -10,6 +11,7 @@
 >   pyfirmata
 >   mysql-connector
 > - Θα πρέπει στη γραμμή 5 του python script να μπει το port που είναι συνδεμένο το Arduino
+
     ```
     board = Arduino('/dev/ttyUSB0')
     ```
