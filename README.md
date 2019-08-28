@@ -1,7 +1,6 @@
 # Information-Systems
 **Setup**
 > - Θα πρέπει να δημιουθργηθεί μια βάση MySQL με τα εξής στοιχεία :
-
 >   host="localhost"
 >   user="root"
 >   passwd=""
