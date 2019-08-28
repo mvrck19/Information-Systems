@@ -1,10 +1,10 @@
 # Information-Systems
 **Setup**
 > - Θα πρέπει να δημιουργηθεί μια βάση MySQL με τα εξής στοιχεία :
->   host="localhost"
->   user="root"
->   passwd=""
->   database="storedb"
+    host="localhost"
+    user="root"
+    passwd="" 
+    database="storedb"
 > - Θα πρέπει να εκτελεστεί το dump.sql για τη δημιουργία των αντικειμένων στη βάση.
 > - Θα πρέπει να εγκατασταθούν μέσω pip οι εξής βιβλιοθήκες :
 >   [pyfirmata](https://pypi.org/project/pyFirmata/)
